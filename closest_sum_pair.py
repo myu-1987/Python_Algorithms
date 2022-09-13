@@ -21,6 +21,7 @@ def closest_sum_pair(a1, a2, target):
             i += 1
         else:
             j -= 1
+    print(closest_pair)
     return closest_pair
 
 # NOTE: You can use the following values to test this function.
