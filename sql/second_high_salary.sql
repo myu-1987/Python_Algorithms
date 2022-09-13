@@ -1,3 +1,5 @@
+-- Second Highest Salary
+
 -- 1
 select salary as SecondHighestSalary from employee 
 group by salary 
