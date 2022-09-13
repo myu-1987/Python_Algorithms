@@ -24,7 +24,7 @@ def leftView(root):
 	while queue:
 
 		# calculate the total number of nodes at the current level
-		size = len(queue)
+		size = len(queue) #0
 		i = 0
 
 		# process every node of the current level and enqueue their
@@ -55,5 +55,8 @@ if __name__ == '__main__':
 	root.right.right = Node(6)
 	root.right.left.left = Node(7)
 	root.right.left.right = Node(8)
-
+                #        1
+                #   2          3 
+                #      4    5    6
+                #         7   8
 	leftView(root)
